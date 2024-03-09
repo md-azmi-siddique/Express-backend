@@ -11,7 +11,7 @@ router.get("/profileDetails", profileDetails)
 router.post("/verifyEmail", verifyEmail)
 router.post("/verifyEmail/:email", verifyEmail)
 router.post("/verifyOTP/:email/:otp/:password", verifyOTP)
-router.post("/passwordReset", passwordReset)
+router.post("/passwordReset/:email/:otp/:password", passwordReset)
 router.post("/signOut", signOut)
 
 
